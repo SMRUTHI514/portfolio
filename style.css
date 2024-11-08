@@ -1,0 +1,90 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+
+}
+.header>img{
+    width:80px;
+}
+.link{
+    font-size:30px;
+    text-decoration:none;
+    color:black;
+    transition:font-size 1s;
+}
+.link:hover{
+    font-size:50px;
+}
+.linkgrp{
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro{
+    display: grid;
+   grid-template-columns: 50% 50%;
+   padding: 20px;
+   margin: 40px;
+}
+.intro>img{
+   height: 400px;
+   margin:0px auto 0px auto;
+}
+.introcdt>h1{
+
+    color: black;
+    font-size: 60px;
+
+}
+.introcdt>div{
+    margin-top: 10px;
+    text-align: justify;
+}
+.introcdt>a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color:rgb(58, 58,222);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 400ms ;
+}
+.introcdt>a:hover{
+    background-color:rgb(58, 58,222);
+}
+.about{
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.about>div{
+    margin-top:50px
+}
+.abtcnt>h3{
+    color: blue;
+    font-weight: bolder;
+}
+.abtcnt.p{
+    margin-top: 20px;
+    text-align: justify;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
